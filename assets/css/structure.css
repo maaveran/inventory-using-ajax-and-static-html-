@@ -1,0 +1,176 @@
+/*
+  ✰✰✰✰✰✰✰✰✰✰✰✰✰✰ 
+
+  Simple Login Form
+  HTML5/CSS3 Coded by: $hekh@r d-Ziner, CSSJunction.com
+  PSD by:PremiumPixels.com
+  
+  Uuage: Free. You can modify, remove our links and use wherever you want ☺.
+  
+  ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰ 
+  
+*/
+body{
+  background-image:url('../../assets/images/flat.jpg');
+  background-size: 100%;
+    }
+.box
+{   
+   
+    
+    background-clip: 
+    background-color: #2C3E50;
+    color:#444;
+    font:normal 12px/14px Arial, Helvetica, Sans-serif;
+    margin:0 auto 30px;
+	overflow:hidden;
+   -webkit-box-shadow: 16px 14px 0px 0px rgba(60, 48, 50, 0.83);
+-moz-box-shadow:    16px 14px 0px 0px rgba(60, 48, 50, 0.83);
+box-shadow:         16px 14px 0px 0px rgba(60, 48, 50, 0.83);
+}
+.box.login
+{
+	height:175px;
+    width:685px;
+	position:absolute;
+	left:70%;
+	top:50%;
+	margin:-170px 0 0 -300px;
+   
+}
+.boxBody
+{   
+    background: #2C3E50;
+    
+    border-bottom:1px solid #dde0e8;
+    padding:35px 20px;
+    
+}
+
+.box footer
+{
+    background:#eff4f6;
+    border-top:1px solid #fff;
+    padding:0px 26px;
+    overflow:hidden;
+	height:0px;
+}
+.box label
+{
+    font-family: circular;
+    display:block;
+    font:20px/24px circular;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin:0px 0 0 6px;
+    color: white;
+}
+.box footer label{
+	float:left;
+	margin:4px 0 0;
+}
+.box footer input[type=checkbox]{
+	vertical-align:sub;
+	*vertical-align:middle;
+	margin-right:10px;
+}
+.box input[type=text],
+.box input[type=password],
+.txtField,
+.cjComboBox
+{
+    
+    background-color: #2ECC56;
+    border:none;
+    -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+    -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+    box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+    margin:3px 3px; 4px;
+    padding:8px 6px;
+    width:270px;
+    font-size: 16px;
+    display:block;
+}
+.box input[type=text]:focus,
+.box input[type=password]:focus,
+.txtField:focus,
+.cjComboBox:focus
+{
+    background-color: #2ECC71;
+    -webkit-box-shadow: 7px 6px 0px 0px rgba(34, 46, 48, 0.42);
+-moz-box-shadow:    7px 6px 0px 0px rgba(34, 46, 48, 0.42);
+box-shadow:         7px 6px 0px 0px rgba(34, 46, 48, 0.42);
+	color:black;
+}
+.cjComboBox
+{
+    width:294px;
+}
+.cjComboBox.small
+{
+    padding:3px 2px 3px 6px;
+    width:100px;
+    border-width:3px !important;
+}
+.txtField.small
+{
+    padding:3px 6px;
+    width:200px;
+    border-width:3px !important;
+}
+
+.rLink{padding:0 6px 0 0; font-size:11px; float:right;}
+.box a{color:#999;}
+.box a:hover, .box a:focus{text-decoration:underline;}
+.box a:active{color:#f84747;}
+.btnLogin
+{
+       background: #F64747; /* Old browsers */
+   font-family: circular;
+    color:#fff;
+   margin-top: 1px;
+   letter-spacing: 1px;
+    margin-left:12px;
+    float:right;
+    border:none;
+	padding:7px 21px;
+    font-size: 20px;
+     -webkit-box-shadow: 7px 6px 0px 0px rgba(34, 46, 48, 0.42);
+-moz-box-shadow:    7px 6px 0px 0px rgba(34, 46, 48, 0.42);
+box-shadow:         7px 6px 0px 0px rgba(34, 46, 48, 0.42);
+}
+
+.btnLogin:hover,
+.btnLogin:focus,
+.btnLogin:active{
+    background:#D91E18;
+    border:none;
+}
+.btnLogin:active
+{
+    text-shadow:rgba(0,0,0,0.3) 0 -1px 0px; 
+}
+
+#header{
+
+    color: white;
+    font-family: circular;
+    font-size: 30px;
+    padding: 15px;
+    letter-spacing: 6px;
+    background: #D91E18;
+
+}
+
+ @font-face {
+    font-family: circular;
+    src: url(../fonts/circula-medium.otf);
+}
+#gagal_login{
+    float: right;
+    margin-top: -19px;
+    border: 1px solid  #2C3E50;
+    font-size: 24px;
+    background-color:  #2C3E50;
+    padding: 6px 0 6px 6px;
+}
